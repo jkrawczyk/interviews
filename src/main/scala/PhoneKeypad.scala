@@ -1,6 +1,6 @@
-/*
-Given string of keystrokes for Nokia-type keypad find out all possible words.
-*/
+/**
+  * Given string of keystrokes for Nokia-type keypad find out all possible words.
+  */
 
 object PhoneKeypad extends App {
 
@@ -25,6 +25,6 @@ object PhoneKeypad extends App {
     }
 
   // test
-  val ws = words(List(2, 3)) // add .toSet here or above if uniqueness is required
-  println(ws)
+  val ws = words(List(2, 7, 9)) // add .toSet if uniqueness is required
+  ws.foreach(println)
 }
